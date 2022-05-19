@@ -45,3 +45,15 @@ $ cat ~/.zshrc | grep play
 alias play="pushd [REPOSITORY_ROOT]; ./run.sh &; popd"
 ```
 👆🏻`ShockEmu` repo location must be updated according to your machine.
+
+# Issues
+- The main use case for me would be playing Elden Ring through PS Connect. For that game, the mouseLook mapping for the camera motion controls is very stuttering and impossible to play. Maybe someone can find a better way to change the settings from the eldenring.se file below:
+`
+# Map mouse to the right stick
+mouseLook.type = linear # 1:1 translation mode, no curve
+mouseLook.stick = right
+mouseLook.multY = -1 # Flips the Y axis for mouseLook
+mouseLook.deadZone = .05 # Sets the dead zone for the joystick
+mouseLook.decay = 5 # What the joystick movement is divided by at each tick (probably does very little)
+
+- The "shift" mapping for me does not work. I tried mapping both the "O" button and R1 for the PS5 controller to shift and it does not seem to work
