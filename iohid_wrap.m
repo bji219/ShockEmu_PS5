@@ -213,8 +213,7 @@ static HIDRunner *hid;
 	prep->left_y = (uint8_t) fmin(fmax(128 + leftY * 127, 0), 255);
 	prep->right_x = (uint8_t) fmin(fmax(128 + rightX * 127, 0), 255);
 	prep->right_y = (uint8_t) fmin(fmax(128 + rightY * 127, 0), 255);
-	callback(context, kIOReturnSuccess, self, kIOHIDReportTypeInput, 1, report, 64);
-
+	callback(context, kIOReturnSuccess, (void *)0xDEADBEEF, kIOHIDReportTypeInput, 0x01, report, 64);
 	ticks++;
 }
 
