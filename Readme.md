@@ -8,7 +8,7 @@ ShockEmu requires the OS X command line development tools to be installed.  [Ins
 # Key Mapping
 `only_keyboard.se` goes like this:
 
-	git clone https://github.com/daeken/ShockEmu.git
+	git clone https://github.com/bji219/ShockEmu_PS5.git
 	./build.sh <filename>.se
 	./run.sh
 [Key Mapping](https://github.com/daeken/ShockEmu/pull/4/files#diff-6ae6279caeccc9dd66383a63ddda7808fc6cb7ef26d7f9ae868c4d884c5c99f2) listed here
