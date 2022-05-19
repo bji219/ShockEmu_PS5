@@ -1,0 +1,32 @@
+# Map movement controls to the left stick. The same can be done using 'right' instead of 'left'.
+
+e = L2
+q = L1
+
+w = leftY-
+a = leftX-
+s = leftY+
+d = leftX+
+
+up = dpadUp
+left = dpadLeft
+right = dpadRight
+down = dpadDown
+
+t = PS
+space = touchpad
+1 = share
+0 = options
+
+u = R2
+o = R1
+
+i = rightY-
+j = rightX-
+k = rightY+
+l = rightX+
+
+f = square
+c = X
+h = triangle
+n = O
