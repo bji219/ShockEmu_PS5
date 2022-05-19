@@ -1,4 +1,4 @@
 #!/bin/bash
 
-python3 shockemu.py $1
+python3 shockemu3.py $1
 clang -dynamiclib -std=gnu99 iohid_wrap.m -current_version 1.0 -compatibility_version 1.0 -lobjc -framework Foundation -framework AppKit -framework CoreFoundation -o iohid_wrap.dylib
