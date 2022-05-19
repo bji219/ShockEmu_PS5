@@ -1,5 +1,8 @@
+# Objective
+The purpose of this project is to create a mouse and keyboard emulator to interface with the PS Connect app for use with MacOS. 
+
 # Reviving an archived project "ShockEmu"
-Original project is archived and not active [here](https://github.com/daeken/ShockEmu). Implementing the open pull request by [willoftw](https://github.com/willoftw). This version of the code is verified to work with macOS Catalina 10.15.6 with PS Connect and a disk-edition PS5.
+Original project is archived and not active [here](https://github.com/daeken/ShockEmu). Implementing the open pull request by [willoftw](https://github.com/willoftw) that will probably never be merged from the dead repository. This version of the code is verified to work with macOS Catalina 10.15.6 with PS Connect and a disk-edition PS5.
 
 [![macos-catalina](https://img.shields.io/badge/macos-catalina-brightgreen.svg)](https://www.apple.com/macos/catalina-preview)
 [![macos-mojave](https://img.shields.io/badge/macos-mojave-brightgreen.svg)](https://www.apple.com/lae/macos/mojave)
