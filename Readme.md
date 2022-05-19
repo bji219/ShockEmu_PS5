@@ -11,7 +11,7 @@ ShockEmu requires the OS X command line development tools to be installed.  [Ins
 	git clone https://github.com/daeken/ShockEmu.git
 	./build.sh <filename>.se
 	./run.sh
-![Key Mapping](https://github.com/backslash-f/ShockEmu/blob/master/KeyMapping.png)
+[Key Mapping](https://github.com/daeken/ShockEmu/pull/4/files#diff-6ae6279caeccc9dd66383a63ddda7808fc6cb7ef26d7f9ae868c4d884c5c99f2) listed here
 
 # Setup
 ```zsh
